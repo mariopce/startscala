@@ -1,4 +1,4 @@
-package com.samsung.scala1
+package com.saramak.scala1
 
 class Person2 /*private*/ (/*private*/ val name :String ="", val age : Int = 29) {
   println("Constructed new person " + name);

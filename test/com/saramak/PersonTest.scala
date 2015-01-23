@@ -1,14 +1,14 @@
-package com.samsung
-import com.samsung.scala1.Person
+package com.saramak
+import com.saramak.scala1.Person
 import collection.mutable.Stack
 import org.scalatest._
 import scala.util.control.Breaks._
-import com.samsung.scala1.Counter
-import com.samsung.scala1.Person
-import com.samsung.scala1.Person2
-import com.samsung.scala1.Person2
-import com.samsung.scala1.Person2
-import com.samsung.scala1.ConsoleLogger
+import com.saramak.scala1.Counter
+import com.saramak.scala1.Person
+import com.saramak.scala1.Person2
+import com.saramak.scala1.Person2
+import com.saramak.scala1.Person2
+import com.saramak.scala1.ConsoleLogger
 class PersonTest extends FlatSpec with Matchers {
 
   "Construct person " should "create person " in {

@@ -1,4 +1,4 @@
-package com.samsung.scala1
+package com.saramak.scala1
 
 class Person extends NoLogger {
 

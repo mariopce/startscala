@@ -1,4 +1,4 @@
-package com.samsung
+package com.saramak
 import collection.mutable.Stack
 import scala.collection.mutable.ArrayBuffer;
 import org.scalatest._

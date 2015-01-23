@@ -1,4 +1,4 @@
-package com.samsung.scala1
+package com.saramak.scala1
 
 class Singleton(val name : String = "s") {
   var id = Singleton.newUniqueNumber();

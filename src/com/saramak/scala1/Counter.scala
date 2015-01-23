@@ -1,4 +1,4 @@
-package com.samsung.scala1
+package com.saramak.scala1
 
 import scala.beans.BeanProperty;
 class Counter {

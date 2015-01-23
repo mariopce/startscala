@@ -1,8 +1,8 @@
-package com.samsung
+package com.saramak
 import collection.mutable.Stack
 import org.scalatest._
 import scala.util.control.Breaks._
-import com.samsung.scala1.Counter
+import com.saramak.scala1.Counter
 class CounterTest extends FlatSpec with Matchers {
 
   "Counter " should "increase " in {

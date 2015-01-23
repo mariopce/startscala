@@ -1,14 +1,14 @@
-package com.samsung
-import com.samsung.scala1.Person
+package com.saramak
+import com.saramak.scala1.Person
 import collection.mutable.Stack
 import org.scalatest._
 import scala.util.control.Breaks._
-import com.samsung.scala1.Counter
-import com.samsung.scala1.Person
-import com.samsung.scala1.Person2
-import com.samsung.scala1.Person2
-import com.samsung.scala1.Person2
-import com.samsung.scala1.Singleton
+import com.saramak.scala1.Counter
+import com.saramak.scala1.Person
+import com.saramak.scala1.Person2
+import com.saramak.scala1.Person2
+import com.saramak.scala1.Person2
+import com.saramak.scala1.Singleton
 class SingletonObjectTest extends FlatSpec with Matchers {
 
   "Singleton " should "generate unitque values" in {

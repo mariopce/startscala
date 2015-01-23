@@ -1,4 +1,4 @@
-package com.samsung.scala1
+package com.saramak.scala1
 
 class Account private (val id : Int, initialBalance : Double) {
   private var balance = initialBalance;

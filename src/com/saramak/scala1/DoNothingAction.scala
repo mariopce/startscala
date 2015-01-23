@@ -1,4 +1,4 @@
-package com.samsung.scala1
+package com.saramak.scala1
 
 object DoNothingAction extends UndonableAction("Do nothing") {
   override def redo(): Unit = {

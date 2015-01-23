@@ -1,4 +1,4 @@
-package com.samsung
+package com.saramak
 import collection.mutable.Stack
 import org.scalatest._
 import scala.util.control.Breaks._

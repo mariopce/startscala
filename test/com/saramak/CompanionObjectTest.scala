@@ -1,10 +1,10 @@
-package com.samsung
-import com.samsung.scala1.Person
+package com.saramak
+import com.saramak.scala1.Person
 import collection.mutable.Stack
 import org.scalatest._
 import scala.util.control.Breaks._
-import com.samsung.scala1.Counter
-import com.samsung.scala1.Account
+import com.saramak.scala1.Counter
+import com.saramak.scala1.Account
 
 
 class CompanionObjectTest extends FlatSpec with Matchers {
