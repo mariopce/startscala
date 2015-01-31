@@ -1,4 +1,4 @@
-package com.saramak
+package com.saramak.scala1
 import collection.mutable.Stack
 import scala.collection.mutable.ArrayBuffer;
 import org.scalatest._

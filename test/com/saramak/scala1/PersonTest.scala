@@ -1,4 +1,4 @@
-package com.saramak
+package com.saramak.scala1
 import com.saramak.scala1.Person
 import collection.mutable.Stack
 import org.scalatest._

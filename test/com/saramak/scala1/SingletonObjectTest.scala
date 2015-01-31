@@ -1,4 +1,4 @@
-package com.saramak
+package com.saramak.scala1
 import com.saramak.scala1.Person
 import collection.mutable.Stack
 import org.scalatest._
@@ -9,12 +9,17 @@ import com.saramak.scala1.Person2
 import com.saramak.scala1.Person2
 import com.saramak.scala1.Person2
 import com.saramak.scala1.Singleton
-import com.saramak.scala1.DoNothingAction
-class ExtendsTest extends FlatSpec with Matchers {
+class SingletonObjectTest extends FlatSpec with Matchers {
 
-  "Actions" should " do Action" in {
-    var actions = Map("open " -> DoNothingAction, "save" -> DoNothingAction);
-    
+  "Singleton " should "generate unitque values" in {
+    var s = new Singleton("nazwa")
+    var un = s.id;
+    assert(un==1);
+    un = new Singleton("dsd").id;
+    assert(un==2); //2
+    s match {
+      case _:Singleton => println("fds"); 
+    }
   }
   
 }

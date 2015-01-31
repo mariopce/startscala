@@ -1,4 +1,4 @@
-package com.saramak
+package com.saramak.scala1
 import collection.mutable.Stack
 import org.scalatest._
 import scala.util.control.Breaks._
