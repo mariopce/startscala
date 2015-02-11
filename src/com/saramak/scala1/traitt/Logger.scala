@@ -1,5 +1,5 @@
 package com.saramak.scala1.traitt
 
-trait Logger {
-  def logger(msg: String)
+trait EmptyLogger {
+  def log(msg: String) {}
 }

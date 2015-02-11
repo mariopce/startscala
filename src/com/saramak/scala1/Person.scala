@@ -1,6 +1,9 @@
 package com.saramak.scala1
 
-class Person extends NoLogger {
+import com.saramak.scala1.NoLogger
+import com.saramak.scala1.traitt.EmptyLogger
+
+class Person extends EmptyLogger {
 
   private var name="";
   private var age = 20;

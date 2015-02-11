@@ -1,14 +1,7 @@
 package com.saramak.scala1
-import com.saramak.scala1.Person
-import collection.mutable.Stack
-import org.scalatest._
-import scala.util.control.Breaks._
-import com.saramak.scala1.Counter
-import com.saramak.scala1.Person
-import com.saramak.scala1.Person2
-import com.saramak.scala1.Person2
-import com.saramak.scala1.Person2
-import com.saramak.scala1.ConsoleLogger
+
+import org.scalatest.FlatSpec
+import org.scalatest.Matchers
 class PersonTest extends FlatSpec with Matchers {
 
   "Construct person " should "create person " in {
@@ -18,7 +11,7 @@ class PersonTest extends FlatSpec with Matchers {
   }
   
   "Construct person Logger trait" should "create person " in {
-    var p = new Person("Mariusz") with ConsoleLogger;
+    var p = new Person("Mariusz") with ConsoleLoggerTrait;
     assert(p.gname == "Mariusz")
     assert(p.gage == 20)
   }
